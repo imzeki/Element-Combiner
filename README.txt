@@ -1,0 +1,1 @@
+Support for Python and Javascript is needed to open any version of the game Element Combiner
