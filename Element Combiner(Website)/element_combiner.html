@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--Inspired by Carykh's Elemental 3. Like if you enjoy this game and comment to report any bug. You can also tell me what I can improve on.-->
+<html>
+	<head>
+		<title>Element Combiner</title>
+        <link rel="stylesheet" href="element_combiner.css">
+        <link rel="icon" href="element_combiner_logo.ico">
+	</head>
+    <script src="element_combiner.js"></script>
+	<body>
+		<h1 class="monospace">Element Combiner</h1>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />       
+        <div class="popup" onclick="popupActivate()">Click to activate Tutorial<span class="popuptext" id="popupText">Hello! Welcome to Element Combiner! The objective is to create and mix elements together to form new ones. Clicking the Create a new Element button asks you for two elements to merge together to form a new one. The random element button gives off a random element while the random Combining idea gives off an idea to reate a new element, the rest is for you too explore. Farewell! Click this popup to exit.</span></div>
+		<div class="classicblue">
+			<h1 class="middlemonospace">Element Pad</h1>
+			<br />
+			<br />
+			<br />
+			<button onclick="createNewElement()" class="bluebutton">Create a new Element</button>
+			<br />
+			<br />
+			<button onclick="randomElement(Elements)" class="bluebutton">Random Element</button>
+			<br />
+			<br />
+			<button onclick="suggestionCombiner(Elements)" class="bluebutton">Random Combining Idea</button>
+			<br />
+			<br />
+			<button onclick="lastElement(Elements)" class="bluebutton">Last Element Made</button>
+			<br />
+			<br />
+			<button onclick="search(Elements)" class="bluebutton">Search Element</button>
+			<br />
+			<br />
+			<button onclick="removeElement(Elements)" class="bluebutton">Remove element</button>
+		   <br />
+		   <br />
+		   <button onclick="infoElement(Elements, ElementsInfo)" class="bluebutton">Info of Element</button>
+			<p id="random_element"></p>
+			<p id="suggestion"></p>
+			<p id="last"></p>
+			<p id="search"></p>
+			<p id="global_order"></p>
+			<p id="remove_element"></p>
+			<p id="info"></p>
+			<br />
+			<br />
+			<br />
+		</div>
+		<br />
+		<br />
+        <script>
+            document.write("<p id='elements' class='monospace'>Your Current Elements: " + Elements.join(", ") + "</p>");
+        </script>
+        <br />
+        <br />
+        <br />
+        <br />
+		<a class="whitebutton" href="https://youtu.be/rQWwfYSUckY" target="_blank">Link to Carykh's video</a>
+        <a class="whitebutton" href="details.html" target="_blank">Details of this game</a>
+		<br />
+		<br />
+	</body>
+</html>
